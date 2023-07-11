@@ -1,0 +1,22 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.footer
+{
+    text-align: center;
+    margin: auto;
+    background-color: rgba(13, 13, 13, 0.932);
+    /* background-color: yellow; */
+    color: white;
+    margin-top: 0%;
+    padding: 10px;
+    width: 100%;
+    /* border: 2px solid white; */
+    opacity:1;
+    /* border-radius: ; */
+}

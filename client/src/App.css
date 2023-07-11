@@ -1,0 +1,109 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.Signup
+{
+    /* height: 100vh; */
+    width: 100%;
+    background-color: black;
+    border-top: 2px solid white;
+    padding-bottom:1% ;
+    /* margin: auto;
+    text-align: center; */
+}
+.Signup form
+{
+    width: 80%;
+    margin: auto;
+    /* border: 2px solid red; */
+    padding: 5%;
+    background-color: white;
+    color: black;
+    margin-top: 4%;
+}
+.textInput{
+    display: block;
+    padding: 17px;
+    padding-left: 4px;
+    /* text-align: center; */
+    margin-bottom: 2%;
+    width: 100%;
+    /* border-radius: 50px; */
+    background-color: black;
+    color: white;
+}
+#Register
+{
+    width: 30%;
+    padding: 14px;
+    /* width: 60%;
+    padding: 4px; */
+    background-color: black;
+    color: white;
+    transition: all .5s;
+    /* margin: auto; */
+}
+#Register:hover
+{
+    background-color: white;
+    color: black;
+}
+.upload form input
+{
+    display: block;
+}
+.upload
+{
+    /* border: 10px solid orange; */
+    /* margin-bottom: 40%; */
+    background-color: black;
+    border-top: 2px solid white;
+}
+.upload form
+{
+    width: 80%;
+    /* margin: auto; */
+    /* border: 2px solid red; */
+    padding: 5%;
+    background-color: white;
+    color: black;
+    margin: 4% auto;
+    margin-bottom: 0%;
+}
+/* .upload0
+{
+    background-color: black;
+    margin-bottom: 4%;
+} */
+.fileInput
+{
+    /* display: block; */
+    /* padding: 17px; */
+    /* padding-left: 4px; */
+    /* text-align: center; */
+    margin-bottom: 2%;
+    /* width: 100%; */
+    /* border-radius: 50px; */
+    /* background-color: black; */
+    /* color: white; */
+   
+}
+.Cards
+{
+    /* border: 2px solid; */
+    margin-top: 4%;
+}
+/* .about-section-2 .about-img {
+    background-image: url(../images/about/about-main.jpg);
+    width: 100%;
+    overflow: hidden;
+    height: 750px;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+} */
+.Contact
+{
+    height: 100vh;
+}
