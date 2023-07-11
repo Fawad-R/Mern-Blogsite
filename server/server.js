@@ -7,7 +7,10 @@ let cookieParser=require('cookie-parser');
 //App
 let app=express();
 let jsonKey='ajfaliwjfalalc[av[svawjrhqoriq[141411!qfnafka[smfafm,';
+let path=require("path")
 // middleware
+// middleware
+app.use(express.static(path.join(__dirname,"./client/build")));
 app.use(express.json());
 app.use(cookieParser())
 // app.use(cors(
@@ -18,7 +21,8 @@ app.use(cookieParser())
 //     }
 // ))
 //mongoose
-mongoose.connect('mongodb://localhost:27017/BlogMERN');
+// mongoose.connect('mongodb://localhost:27017/BlogMERN');
+mongoose.connect('mongodb+srv://FawadRahman55:ISJ6YMDcDzHhWeiN@cluster0.sevd1id.mongodb.net/?retryWrites=true&w=majority');
 //schemas
 let userSchema=new mongoose.Schema({
     email:{
